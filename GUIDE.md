@@ -69,8 +69,7 @@ rẻ hơn bắt ở phút 130.
 ```bash
 python3 tools/coco_kp_to_yolo_pose.py --coco <file>.json --out dataset/labels/train
 python3 tools/check_pose_labels.py --images dataset/images/train --labels dataset/labels/train
-python3 tools/visualize_pose.py --images dataset/images/train \
-    --labels dataset/labels/train --out outputs/vis_train
+python3 tools/visualize_pose.py --images dataset/images/train --labels dataset/labels/train --out outputs/vis_train
 ```
 
 Mở `outputs/vis_train/train_01.jpg`. Xanh = bên trái cơ thể, cam = bên phải, vàng = bị che.
